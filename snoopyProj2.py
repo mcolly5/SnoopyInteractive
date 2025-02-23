@@ -182,6 +182,11 @@ def snoopyQuote():
     st.header("You arrive back at GT. This could be the last time you ever see Snoopy! You turn and ask:")
     ask = st.button("Any final words of wisdom (that are totally not Kanye quotes)?")#NEW
     if ask:
+        if quotes:
+            snoopWords = random.choice(quotes)
+            print(f"Random quote: {snoopWords}")
+        else:
+            print("No quotes available to choose from.")
         snoopWords = random.choice(quotes)
         if snoopWords in bad_words:
             st.write("He responds: " + theTea.Kendrick)
