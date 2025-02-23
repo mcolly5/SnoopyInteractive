@@ -19,7 +19,7 @@ def get_name():
 get_name()
 ##OPENER######################################################
 def welcome():
-    st.image("images/openSnoopy.jpg", use_column_width = True)#NEW
+    st.image("images/openSnoopy.jpg", use_container_width = True)#NEW
     st.write("You've won a special day with Joe Cool. Let's see what you get up to!")
     st.write("---")
 welcome()
@@ -162,15 +162,15 @@ def rPS():
         (hand == 'Paper' and snoopy_choice == 'Rock') or
         (hand == 'Scissors' and snoopy_choice == 'Paper')):
         st.write("**You win! Snoopy is mad.**")
-        st.image("images/angry snoop.jpg", use_column_width=True)
+        st.image("images/angry snoop.jpg", use_container_width=True)
     else:
         st.write("**Snoopy wins! He dances in victory instead of flying the doghouse..**")
-        st.image("images/celebrationsnoop.jpg", use_column_width=True)
+        st.image("images/celebrationsnoop.jpg", use_container_width=True)
     st.write("---")
 rPS()        
 ############ENDING###########################################
 def snoopyQuote():
-    st.image("images/wise.jpg", use_column_width=True)
+    st.image("images/wise.jpg", use_container_width=True)
     bad_words = [
         "One day I'm gon' marry a porn star", 
         "Shut the fuck up I will fucking laser you with alien fucking eyes and explode your fucking head",
@@ -189,7 +189,7 @@ def snoopyQuote():
         st.write("---")
         st.subheader("And with that, he went off to battle in a scrappy 1940s airplane battle, or renovate his house, or discover Obama's last name... we don't know. Get home safe now!")
         st.subheader("_THE END_")
-        st.image("images/bye.jpg", use_column_width=True)
+        st.image("images/bye.jpg", use_container_width=True)
 snoopyQuote()
 ############################################################
    
