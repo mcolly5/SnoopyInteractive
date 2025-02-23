@@ -47,7 +47,7 @@ def breakfast():
 breakfast()
 ###VISITING DIALOGUES############################################
 def charlieVisit():
-    st.image("images/charlie.jpg", use_column_width=True)
+    st.image("images/charlie.jpg", use_container_width=True)
     st.subheader("Snoopy's always down to see his best friend!")
     st.write("_You follow him to their house and knock on the door._")
     st.write("_'Snoop? Is that you?' A boyish voice calls._")
@@ -58,7 +58,7 @@ def charlieVisit():
     st.write("_Charlie Brown dejectedly closes the door while snoopy puts his snout in the air in distaste. Dang._")
 
 def linusVisit():
-    st.image("images/linus.jpg", use_column_width=True)
+    st.image("images/linus.jpg", use_container_width=True)
     st.subheader("_Snoopy beckons you to follow him. You join him on an adventure through some offside part of the neighborhood._")
     st.write("_You arrive at Linus's house, where he's engrossed in tending to his pumpkin patch._")
 
@@ -72,7 +72,7 @@ def linusVisit():
     st.write("_Even if the Great Pumpkin doesn't make an appearance, the friendship and shared moments make this quiet quest unforgettable...:)_")
     
 def lucyVisit():
-    st.image("images/lucy.jpg", use_column_width=True)
+    st.image("images/lucy.jpg", use_container_width=True)
     st.subheader("_You know a girlboss when you see one._")
     st.write("_There was only one place Lucy could be: at her therapy stand._")
     st.write("_'It's ok to not be okay! The Doctor is in! Lay your burdens on me!' She cried like a true businesswoman._")
@@ -82,7 +82,7 @@ def lucyVisit():
     st.write("_'What's your name?' She asks for taxing purposes. You answer. 'Well, _" + name + "_,' she sighs, you really should have cut that person off months ago. Why are you fighting for someone's attention? Respect yourself. Couldn't be me.'_")
     st.write("_You hate that she's right, but it just be like that sometimes. You thank her for her consolation and she hands you a 900 dollar invoice. When you say you don't have that kind of money, she says it's a skill issue. You can't argue with her because she teleports away to go help Zayn Malik get over the way he was treated by Yolanda Hadid which... is honestly more important._")
 def schroVisit():
-    st.image("images/schroeder.jpg", use_column_width=True)
+    st.image("images/schroeder.jpg", use_container_width=True)
     st.subheader("_Snoopy knew you a music enthusiast._")
     st.write("_You find Schroeder on the street corner, approaching every stranger he can asking to compare 'Spotify Wrapped' lists. He insists that no one has as niche results as him, and Snoopy(nonverbally) insists that you put him in his place._")
     st.write("_'I bet you've never heard of Cody Fry, huh?' Schroeder says while looking you up and down.'_")
@@ -94,18 +94,18 @@ def schroVisit():
 
 
 def franklinVisit():
-    st.image("images/franklin 1.jpg", use_column_width=True)
+    st.image("images/franklin 1.jpg", use_container_width=True)
     st.subheader("Okay, there's no adventure here. I just want everyone to see how nice this kid looks. Like seriously, how did we sleep on him?")
 
-    st.image("images/franky22.jpg", use_column_width=True)
+    st.image("images/franky22.jpg", use_container_width=True)
     st.subheader("**LOOK AT HIM!!SO FRIENDLY!!!**")
     st.subheader("Goodness.")
 
-    st.image("images/franklin 3.jpg", use_column_width=True)             
+    st.image("images/franklin 3.jpg", use_container_width=True)             
     st.subheader("Anyways...")
 
 def iceSpiceVisit():
-    st.image("images/ice spice.jpg", use_column_width=True)
+    st.image("images/ice spice.jpg", use_container_width=True)
     st.subheader("Snoopy loves Ice Spice! She was his #1 on Spotify Wrapped with 300,000 minutes.")
     st.write("_You fly on his doghouse to New York, listening to 'Like..?' All the way there._")
     st.write("_Snoopy was too nervous to ring the doorbell at her secret deli location you guys tracked down, so you do it._")
