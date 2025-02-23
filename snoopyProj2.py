@@ -7,6 +7,8 @@ baseurl = "https://api.kanye.rest/"
 r = requests.get(baseurl)
 if r.status_code == 200:
     quotes = r.json()
+else:
+    snoopWords = "invalid quote format."
 
 def get_name():
     global name
