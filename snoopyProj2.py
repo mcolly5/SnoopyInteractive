@@ -3,7 +3,7 @@ import requests
 import random
 import pandas as pd
 import theTea
-baseurl = "https://raw.githubusercontent.com/ajzbc/kanye.rest/master/quotes.json"
+baseurl = "https://api.kanye.rest/"
 r = requests.get(baseurl)
 if r.status_code == 200:
     quotes = r.json()
